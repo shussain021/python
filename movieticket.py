@@ -2,6 +2,7 @@ Age = input("Enter the age:")
 Day = input("Enter the day of the week:")
 age = int(Age)
 day = str(Day).lower()
+
 price = 0
 if age < 12:
   price = 6
